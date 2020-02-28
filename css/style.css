@@ -1,0 +1,424 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+/* -- HOME -- */
+.header{
+    position: absolute;
+    width: 100%;
+}
+.img-home{
+    position: absolute;
+    left: 0px;
+    height: 450px;
+    width: 100%;
+    top:50px;
+}
+.header2{
+    position:relative;
+    top:490px;
+    background-color:#000;
+    padding-bottom:3em;
+}
+/*-- Navbar --*/
+
+.bg-nav{
+    background-color:rgb(206,126,26);
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+    padding: .2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #fff !important;
+}
+.nav-item a{
+    color:#000;
+}
+.nav-item a:hover{
+    color:#000;
+}
+/*-- CHANGELOG --*/
+
+.nav-modal-font{
+    color:#000;
+}
+.nav-modal-font a{
+    text-transform:uppercase;
+    font-weight:bold;
+}
+section.changelog-body{
+    position:relative;
+    top:490px;
+    margin: 0px 165px 0px 180px;
+}
+.changelog-panel{
+    position:relative;
+    margin: 10px 0px 30px 0px;
+    width:100%;
+    height:700px;
+    background-color:rgba(255,255,255,1.0);
+    overflow:hidden;
+}
+.scrollable{
+    max-height:658px;
+    overflow:auto;
+}
+.center-version h2{
+    text-align:center;
+}
+.button{
+    background-color:rgb(204, 126, 36);
+    text-transform:uppercase;
+}
+.button a{
+    color:#fff;
+    text-transform:uppercase;
+}
+.button a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.slide-size img{
+    max-width:1060px;
+    max-height:520px;
+}
+
+/*-- ADDS --*/
+
+.leftAdd{
+    position:absolute;
+    top:-260px;
+    left:-7px;
+}
+.rightAdd{
+    position:absolute;
+    right:0;
+    top:990px;
+}
+/*-- UNNAMED PAGE --*/
+
+.tex-unn a:hover{
+    zoom:1em;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(42, 42, 42);
+}
+.col{
+    background: rgba(0,0,0,0.5);
+}
+.col p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panel{
+    margin: 10px 0;
+    padding: 20px;
+}
+.panel hr{
+    background:#fff;
+}
+.panel h2{
+    margin-bottom:0px;
+    text-transform:uppercase;
+    color:#fff;
+    text-align:center;
+}
+.panel p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.panel ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panel ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.panel a{
+    color:rgb(204, 126, 36);
+}
+.panel a:hover{
+    color:rgb(204, 126, 36);
+}
+.panelshadow{
+    box-shadow: rgba(0,0,0,1.0) 0px 0.rem 1rem !important;
+}
+.boxpanel{
+    background-color: rgba(0,0,0,0.4);
+}
+.textpanel{
+    margin-bottom: 0;
+}
+.download{
+    left: 775px;
+    width:350px;
+}
+.download a{
+    text-transform: uppercase;
+    background: rgb(204, 126, 36);
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+}
+.download a:hover{
+    color: #fff;
+}
+.download a:link{
+    text-decoration:none;
+    padding-top: 0.9em;
+    height: 50px;
+    width: 300px;
+    margin: -0.5em 1em;
+}
+
+/* -- FOOTER -- */
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  position:relative;
+  bottom:-460px;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:rgb(206,126,26);
+  text-decoration:none;
+}
+.site-footer .social-icons
+{
+  text-align:right;
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d;
+}
+.footer-text
+{
+  margin:0;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:30px;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px;
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0;
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center;
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px;
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px;
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px;
+}
+.social-icons a.youtube:hover
+{
+  background-color:#c4302b;
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00acee;
+}
+.social-icons a.pmc:hover,.social-icons a.pmc:active,.social-icons a.pmc:focus{
+    background-color:#33353d;
+}
+.social-icons a.forge:hover,.social-icons a.forge:active,.social-icons a.forge:focus{
+    background-color:#6441a4;
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600;
+  }
+}
+
+/* -- Download Page -- */
+.btdown{
+    margin: 10px 0px;
+}
+.btdown a{
+    text-transform: uppercase;
+    background: rgb(204, 126, 36);
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+}
+.btdown a:hover{
+    color: #fff;
+}
+.btdown a:link{
+    text-decoration:none;
+    padding-top: 0.9em;
+    height: 50px;
+    width: 300px;
+    margin: -0.5em 1em;
+}
+
+#myTimer {
+    font:30px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+  
+button {
+    width:125px;
+    padding:10px;
+}
+  
+.btnEnable {
+    background-color:rgb(206,126,26);
+    width:200px;
+    height:50px;
+    border-color: rgb(206,126,26);
+    position: relative;
+    top:10px;
+    margin-bottom:20px;
+    border-radius:50rem!important;
+}
+.btnEnable a{
+    color:#000;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
+    top:0px;
+    left:35px;
+}
+.btnEnable a:hover{
+    text-decoration:none;
+    color:#000;
+}
+.btnDisable {
+    background-color:#777777;
+    color:#000;
+    width:200px;
+    height:50px;
+    border-color: #777777;
+    position:relative;
+    top:10px;
+    margin-bottom:20px;
+    border-radius:50rem!important;
+}
+.referral{
+    font-size:10px;
+}
+.referral a{
+    color:rgb(74, 189, 255);
+}
+.referral a:hover{
+    color: rgb(74, 189, 255);
+}
+.ad{
+    position:absolute;
+    top:500px;
+}
+.adbutton{
+    position:absolute;
+    left:100px;
+    margin-top:35px;
+}
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
