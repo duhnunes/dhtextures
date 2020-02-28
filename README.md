@@ -5,5 +5,10 @@ If you want to help too, feel free. It's not a big project, but it's something t
 
 This is the second version of the site. I will try to put the first version here as well.
 
+
+The site is currently hosted free of charge at the services of 000webhost:  
+[DHTextures](https://dhtexturesmc.000webhostapp.com)
+
+
 Cheers,
 DuH
