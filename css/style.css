@@ -58,6 +58,18 @@ html {
 .nav-item a:hover{
     color:#000;
 }
+
+/*-- TEXTURES --*/
+
+.tex-unn{
+    transition:transform .7s;
+}
+.tex-unn:hover{
+    -ms-transform:scale(1.15);
+    -webkit-transform:scale(1.15);
+    transform:scale(1.15);
+}
+
 /*-- CHANGELOG --*/
 
 .nav-modal-font{
@@ -118,9 +130,6 @@ section.changelog-body{
 }
 /*-- UNNAMED PAGE --*/
 
-.tex-unn a:hover{
-    zoom:1em;
-}
 .background{
     width: 100%;
     height: 100%;
