@@ -1,7 +1,26 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
+/* width */
+::-webkit-scrollbar {
+   width: 7px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+   background: #888; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #282828; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: rgb(204,126,26);
+}
 /* -- HOME -- */
 .header{
     position: absolute;
@@ -23,7 +42,7 @@ html {
 /*-- Navbar --*/
 
 .bg-nav{
-    background-color:rgb(206,126,26);
+    background-color:rgb(204,126,26);
 }
 .navbar-nav a{
     font-size: 18px;
@@ -100,7 +119,7 @@ section.changelog-body{
     text-align:center;
 }
 .button{
-    background-color:rgb(204, 126, 36);
+    background-color:rgb(204, 126, 26);
     text-transform:uppercase;
 }
 .button a{
